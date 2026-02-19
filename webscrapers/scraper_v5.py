@@ -35,11 +35,12 @@ USER_AGENTS = [
 
 # ------------------------------------------
 # REGION → COUNTRY → CITIES
+# (same as before — omitted here for brevity)
 # ------------------------------------------
 REGIONS = {
     "Western & Southern Europe": {
         "Portugal": ["Lisbon", "Porto", "Braga"],
-        "Spain": ["Madrid", "Barcelona", "Valencia", "Malaga"], # Fixed string grouping typo
+        "Spain": ["Madrid", "Barcelona", "Valencia, Malaga"],
         "Italy": ["Rome", "Milan", "Florence"],
         "Greece": ["Athens", "Thessaloniki"],
         "Malta": ["Valletta"],
@@ -102,34 +103,17 @@ REGIONS = {
 }
 
 # ------------------------------------------
-# URL OVERRIDES FOR TRICKY CITIES
+# FETCH PAGE WITH ANTI-429 LOGIC
 # ------------------------------------------
-URL_OVERRIDES = {
-    "San Jose": "San-Jose-Costa-Rica",
-    "Hamilton": "Hamilton-Bermuda",
-}
-
-def city_to_url(city):
-    """
-    Checks for known geographical overlaps before formatting the Numbeo URL.
-    """
-    if city in URL_OVERRIDES:
-        formatted_city = URL_OVERRIDES[city]
-    else:
-        # Standard formatting: replace spaces with dashes
-        formatted_city = city.replace(' ', '-')
-       
-    return f"https://www.numbeo.com/cost-of-living/in/{formatted_city}"
-
-# ------------------------------------------
-# FETCH PAGE WITH ROBUST ERROR HANDLING
-# ------------------------------------------
-
 def fetch_page(url, retries=3):
     for attempt in range(retries):
         headers = {
             "User-Agent": random.choice(USER_AGENTS),
-            "Accept-Language": random.choice(["en-US,en;q=0.9", "en-GB,en;q=0.8", "en;q=0.7"]),
+            "Accept-Language": random.choice([
+                "en-US,en;q=0.9",
+                "en-GB,en;q=0.8",
+                "en;q=0.7"
+            ]),
             "Referer": "https://www.google.com/",
             "DNT": "1",
             "Connection": "keep-alive"
@@ -140,42 +124,19 @@ def fetch_page(url, retries=3):
         time.sleep(delay)
 
         try:
-            # 15-second timeout prevents infinite hanging on dead connections
-            response = requests.get(url, headers=headers, timeout=15)
-           
-            # Check for Cloudflare/CAPTCHA disguised as a 200 OK
-            if "Just a moment..." in response.text or "cloudflare" in response.text.lower():
-                print("Cloudflare CAPTCHA detected! IP temporarily flagged.")
-                time.sleep(120)  # Massive penalty sleep
-                continue         # Force a retry
-
+            response = requests.get(url, headers=headers)
             response.raise_for_status()
             return response.text
 
         except requests.exceptions.HTTPError as e:
-            status = response.status_code
-           
-            # 404 means the URL is wrong or doesn't exist. Do not retry.
-            if status == 404:
-                print(f"404 Error: Page not found for {url}. Skipping.")
-                return None
-               
-            # Treat 403 (Forbidden) and 503 (Unavailable) the same as 429 (Rate limited)
-            elif status in [429, 403, 503]:
-                cooldown = (attempt + 1) * random.uniform(30, 60)
-                print(f"HTTP {status} Block. Cooling down for {cooldown:.1f}s...")
+            if response.status_code == 429:
+                cooldown = (attempt + 1) * random.uniform(10, 25)
+                print(f"429 detected. Cooling down for {cooldown:.1f}s...")
                 time.sleep(cooldown)
             else:
-                print(f"HTTP {status} Error. Retrying...")
-                time.sleep(10)
-               
-        # Catch network blips, connection resets, and timeouts entirely
-        except requests.exceptions.RequestException as e:
-            print(f"Network error: {e}. Retrying...")
-            time.sleep(15)
+                raise e
 
-    print(f"Failed to fetch {url} after {retries} retries.")
-    return None
+    raise Exception("Failed after retries due to repeated 429 errors.")
 
 # ------------------------------------------
 # PARSE COST TABLE
@@ -197,6 +158,9 @@ def parse_cost_table(html):
 
     return pd.DataFrame({"Item": items, "Price": prices})
 
+def city_to_url(city):
+    return f"https://www.numbeo.com/cost-of-living/in/{city.replace(' ', '-')}"
+
 # ------------------------------------------
 # MAIN SCRAPER LOOP
 # ------------------------------------------
@@ -215,15 +179,9 @@ if __name__ == "__main__":
 
                 try:
                     html = fetch_page(url)
-                   
-                    # Skip parsing if the page failed to load (e.g., 404)
-                    if html is None:
-                        continue
-
                     df = parse_cost_table(html)
 
-                    # Ensure the dataframe isn't completely empty before saving
-                    if df is not None and not df.empty:
+                    if df is not None:
                         df["Region"] = region
                         df["Country"] = country
                         df["City"] = city
