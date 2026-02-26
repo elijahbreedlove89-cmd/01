@@ -1,0 +1,418 @@
+Country,Source Name
+0,CostOfLiving
+0,GPI
+0,LPI2023
+0,SpeedTestBroadband
+Afghanistan,CostOfLiving
+Afghanistan,SpeedTestMobile
+Algeria,CostOfLiving
+Angola,CostOfLiving
+Angola,SpeedTestMobile
+Antigua and Barbuda,CostOfLiving
+Antigua and Barbuda,GPI
+Antigua and Barbuda,SpeedTestMobile
+Armenia,CostOfLiving
+Australia,CostOfLiving
+Austria,CostOfLiving
+Azerbaijan,CostOfLiving
+Azerbaijan,LPI2023
+"Bahamas, The",CostOfLiving
+"Bahamas, The",GPI
+"Bahamas, The",SpeedTestBroadband
+"Bahamas, The",SpeedTestMobile
+Bahrain,CostOfLiving
+Bangladesh,CostOfLiving
+Barbados,GPI
+Barbados,LPI2023
+Barbados,SpeedTestBroadband
+Barbados,SpeedTestMobile
+Belarus,CostOfLiving
+Belgium,CostOfLiving
+Belize,GPI
+Belize,LPI2023
+Belize,SpeedTestMobile
+Benin,CostOfLiving
+Benin,SpeedTestMobile
+Bermuda,GPI
+Bermuda,LPI2023
+Bermuda,SpeedTestBroadband
+Bermuda,SpeedTestMobile
+Bhutan,CostOfLiving
+Bhutan,SpeedTestBroadband
+Bhutan,SpeedTestMobile
+Bolivia,CostOfLiving
+Bosnia and Herzegovina,CostOfLiving
+Botswana,CostOfLiving
+Botswana,SpeedTestMobile
+Brunei,CostOfLiving
+Brunei,GPI
+Brunei,LPI2023
+Burkina Faso,CostOfLiving
+Burkina Faso,SpeedTestMobile
+Burundi,CostOfLiving
+Burundi,LPI2023
+Burundi,SpeedTestBroadband
+Burundi,SpeedTestMobile
+Cambodia,CostOfLiving
+Cameroon,CostOfLiving
+Cameroon,SpeedTestMobile
+Canada,CostOfLiving
+Cape Verde,CostOfLiving
+Cape Verde,GPI
+Cape Verde,LPI2023
+Cape Verde,SpeedTestMobile
+Central African Republic,CostOfLiving
+Central African Republic,SpeedTestBroadband
+Central African Republic,SpeedTestMobile
+Chad,CostOfLiving
+Chad,LPI2023
+Chad,SpeedTestBroadband
+Chad,SpeedTestMobile
+China,CostOfLiving
+"Congo, Dem. Rep.",CostOfLiving
+"Congo, Dem. Rep.",GPI
+"Congo, Dem. Rep.",SpeedTestBroadband
+"Congo, Dem. Rep.",SpeedTestMobile
+"Congo, Rep.",CostOfLiving
+"Congo, Rep.",GPI
+"Congo, Rep.",SpeedTestBroadband
+"Congo, Rep.",SpeedTestMobile
+Cote d' Ivoire,CostOfLiving
+Cote d' Ivoire,LPI2023
+Cote d' Ivoire,SpeedTestBroadband
+Cote d' Ivoire,SpeedTestMobile
+Cuba,CostOfLiving
+Cuba,SpeedTestMobile
+Czech Republic,CostOfLiving
+Czech Republic,GPI
+Czech Republic,SpeedTestBroadband
+Czech Republic,SpeedTestMobile
+Czechia,LPI2023
+Côte d'Ivoire,CostOfLiving
+Côte d'Ivoire,GPI
+Côte d'Ivoire,LPI2023
+Côte d'Ivoire,SpeedTestMobile
+DR Congo,CostOfLiving
+DR Congo,GPI
+DR Congo,LPI2023
+DR Congo,SpeedTestMobile
+Democratic Republic of the Congo,CostOfLiving
+Democratic Republic of the Congo,LPI2023
+Democratic Republic of the Congo,SpeedTestBroadband
+Democratic Republic of the Congo,SpeedTestMobile
+Denmark,CostOfLiving
+Djibouti,CostOfLiving
+Djibouti,SpeedTestMobile
+Dominican Republic,CostOfLiving
+Dominican Republic,SpeedTestMobile
+Ecuador,LPI2023
+Egypt,CostOfLiving
+Egypt,LPI2023
+"Egypt, Arab Rep.",CostOfLiving
+"Egypt, Arab Rep.",GPI
+"Egypt, Arab Rep.",SpeedTestBroadband
+"Egypt, Arab Rep.",SpeedTestMobile
+El Salvador,CostOfLiving
+Equatorial Guinea,CostOfLiving
+Equatorial Guinea,LPI2023
+Equatorial Guinea,SpeedTestBroadband
+Equatorial Guinea,SpeedTestMobile
+Eritrea,CostOfLiving
+Eritrea,LPI2023
+Eritrea,SpeedTestBroadband
+Eritrea,SpeedTestMobile
+Eswatini,CostOfLiving
+Eswatini,LPI2023
+Eswatini,SpeedTestBroadband
+Eswatini,SpeedTestMobile
+Ethiopia,CostOfLiving
+Ethiopia,LPI2023
+Ethiopia,SpeedTestBroadband
+Ethiopia,SpeedTestMobile
+Fiji,CostOfLiving
+Fiji,GPI
+Fiji,SpeedTestBroadband
+Fiji,SpeedTestMobile
+Finland,CostOfLiving
+Gabon,CostOfLiving
+Gabon,SpeedTestMobile
+"Gambia, The",CostOfLiving
+"Gambia, The",GPI
+"Gambia, The",SpeedTestBroadband
+"Gambia, The",SpeedTestMobile
+Ghana,CostOfLiving
+Ghana,SpeedTestMobile
+Grenada,CostOfLiving
+Grenada,GPI
+Grenada,SpeedTestMobile
+Guatemala,CostOfLiving
+Guinea,CostOfLiving
+Guinea,SpeedTestBroadband
+Guinea,SpeedTestMobile
+Guinea-Bissau,CostOfLiving
+Guinea-Bissau,SpeedTestBroadband
+Guinea-Bissau,SpeedTestMobile
+Guyana,CostOfLiving
+Guyana,SpeedTestBroadband
+Guyana,SpeedTestMobile
+Haiti,CostOfLiving
+Haiti,SpeedTestMobile
+Honduras,CostOfLiving
+Hong Kong (SAR),CostOfLiving
+Hong Kong (SAR),GPI
+Hong Kong (SAR),LPI2023
+"Hong Kong SAR, China",CostOfLiving
+"Hong Kong SAR, China",GPI
+"Hong Kong SAR, China",SpeedTestBroadband
+"Hong Kong SAR, China",SpeedTestMobile
+Iceland,CostOfLiving
+Iceland,SpeedTestMobile
+India,CostOfLiving
+Iran,CostOfLiving
+Iran,LPI2023
+"Iran, Islamic Rep.",CostOfLiving
+"Iran, Islamic Rep.",GPI
+"Iran, Islamic Rep.",SpeedTestBroadband
+"Iran, Islamic Rep.",SpeedTestMobile
+Iraq,CostOfLiving
+Israel,CostOfLiving
+Jamaica,CostOfLiving
+Jamaica,SpeedTestMobile
+Jordan,CostOfLiving
+Jordan,LPI2023
+Kazakhstan,CostOfLiving
+Kenya,CostOfLiving
+Kenya,LPI2023
+"Korea, Rep.",CostOfLiving
+"Korea, Rep.",GPI
+"Korea, Rep.",SpeedTestBroadband
+"Korea, Rep.",SpeedTestMobile
+Kosovo,CostOfLiving
+Kosovo,LPI2023
+Kuwait,CostOfLiving
+Kyrgyz Republic,CostOfLiving
+Kyrgyz Republic,SpeedTestBroadband
+Kyrgyz Republic,SpeedTestMobile
+Kyrgyzstan,CostOfLiving
+Kyrgyzstan,GPI
+Kyrgyzstan,LPI2023
+Lao PDR,CostOfLiving
+Lao PDR,GPI
+Lao PDR,SpeedTestBroadband
+Lao PDR,SpeedTestMobile
+Laos,CostOfLiving
+Laos,LPI2023
+Lebanon,CostOfLiving
+Lebanon,LPI2023
+Lesotho,CostOfLiving
+Lesotho,LPI2023
+Lesotho,SpeedTestBroadband
+Lesotho,SpeedTestMobile
+Liberia,CostOfLiving
+Liberia,SpeedTestBroadband
+Liberia,SpeedTestMobile
+Libya,CostOfLiving
+Luxembourg,CostOfLiving
+Luxembourg,GPI
+Macau (SAR),CostOfLiving
+Macau (SAR),GPI
+Macau (SAR),LPI2023
+Macau (SAR),SpeedTestMobile
+Madagascar,CostOfLiving
+Madagascar,SpeedTestMobile
+Malawi,CostOfLiving
+Malawi,LPI2023
+Malawi,SpeedTestBroadband
+Malawi,SpeedTestMobile
+Maldives,CostOfLiving
+Maldives,GPI
+Maldives,LPI2023
+Maldives,SpeedTestMobile
+Mali,CostOfLiving
+Mali,SpeedTestMobile
+Malta,GPI
+Malta,SpeedTestMobile
+Mauritania,CostOfLiving
+Mauritania,SpeedTestMobile
+Mauritius,SpeedTestMobile
+Moldova,CostOfLiving
+Mongolia,CostOfLiving
+Mongolia,SpeedTestMobile
+Montenegro,SpeedTestMobile
+Morocco,LPI2023
+Mozambique,CostOfLiving
+Mozambique,LPI2023
+Mozambique,SpeedTestMobile
+Myanmar,CostOfLiving
+Myanmar,LPI2023
+Myanmar,SpeedTestBroadband
+Myanmar,SpeedTestMobile
+Myanmar (Burma),CostOfLiving
+Myanmar (Burma),GPI
+Myanmar (Burma),LPI2023
+Myanmar (Burma),SpeedTestMobile
+Namibia,CostOfLiving
+Namibia,SpeedTestMobile
+Nepal,CostOfLiving
+Nepal,LPI2023
+Nepal,SpeedTestMobile
+Netherlands,CostOfLiving
+New Zealand,CostOfLiving
+Nicaragua,CostOfLiving
+Niger,CostOfLiving
+Niger,LPI2023
+Niger,SpeedTestBroadband
+Niger,SpeedTestMobile
+Nigeria,CostOfLiving
+North Korea,CostOfLiving
+North Korea,LPI2023
+North Korea,SpeedTestBroadband
+North Korea,SpeedTestMobile
+North Macedonia,CostOfLiving
+Norway,CostOfLiving
+Oman,CostOfLiving
+Pakistan,CostOfLiving
+Pakistan,LPI2023
+Palestine,CostOfLiving
+Palestine,LPI2023
+Palestine,SpeedTestMobile
+Papua New Guinea,CostOfLiving
+Papua New Guinea,SpeedTestBroadband
+Papua New Guinea,SpeedTestMobile
+Paraguay,CostOfLiving
+Peru,CostOfLiving
+Qatar,CostOfLiving
+Republic of the Congo,CostOfLiving
+Republic of the Congo,LPI2023
+Republic of the Congo,SpeedTestBroadband
+Republic of the Congo,SpeedTestMobile
+Russia,CostOfLiving
+Russia,LPI2023
+Russian Federation,CostOfLiving
+Russian Federation,GPI
+Russian Federation,SpeedTestBroadband
+Russian Federation,SpeedTestMobile
+Rwanda,CostOfLiving
+Rwanda,SpeedTestMobile
+Saint Kitts and Nevis,CostOfLiving
+Saint Kitts and Nevis,GPI
+Saint Kitts and Nevis,LPI2023
+Saint Kitts and Nevis,SpeedTestMobile
+Saudi Arabia,CostOfLiving
+Senegal,CostOfLiving
+Senegal,LPI2023
+Senegal,SpeedTestMobile
+Sierra Leone,CostOfLiving
+Sierra Leone,LPI2023
+Sierra Leone,SpeedTestMobile
+Singapore,CostOfLiving
+Slovak Republic,CostOfLiving
+Slovak Republic,GPI
+Slovak Republic,SpeedTestBroadband
+Slovak Republic,SpeedTestMobile
+Slovakia,LPI2023
+Solomon Islands,CostOfLiving
+Solomon Islands,GPI
+Solomon Islands,SpeedTestBroadband
+Solomon Islands,SpeedTestMobile
+Somalia,CostOfLiving
+Somalia,SpeedTestMobile
+South Korea,LPI2023
+South Sudan,CostOfLiving
+South Sudan,LPI2023
+South Sudan,SpeedTestBroadband
+South Sudan,SpeedTestMobile
+Sudan,CostOfLiving
+Sudan,SpeedTestBroadband
+Sudan,SpeedTestMobile
+Sweden,CostOfLiving
+Switzerland,CostOfLiving
+Syria,CostOfLiving
+Syria,LPI2023
+Syrian Arab Republic,CostOfLiving
+Syrian Arab Republic,GPI
+Syrian Arab Republic,SpeedTestBroadband
+Syrian Arab Republic,SpeedTestMobile
+TC<rkiye,CostOfLiving
+TC<rkiye,GPI
+TC<rkiye,SpeedTestBroadband
+TC<rkiye,SpeedTestMobile
+Taiwan,LPI2023
+"Taiwan, China",CostOfLiving
+"Taiwan, China",GPI
+"Taiwan, China",SpeedTestBroadband
+"Taiwan, China",SpeedTestMobile
+Tajikistan,CostOfLiving
+Tajikistan,SpeedTestMobile
+Tanzania,CostOfLiving
+Tanzania,LPI2023
+Tanzania,SpeedTestMobile
+The Bahamas,CostOfLiving
+The Bahamas,GPI
+The Bahamas,LPI2023
+The Bahamas,SpeedTestMobile
+The Gambia,CostOfLiving
+The Gambia,LPI2023
+The Gambia,SpeedTestBroadband
+The Gambia,SpeedTestMobile
+Timor-Leste,CostOfLiving
+Timor-Leste,LPI2023
+Timor-Leste,SpeedTestBroadband
+Timor-Leste,SpeedTestMobile
+Togo,CostOfLiving
+Togo,SpeedTestMobile
+Trinidad and Tobago,CostOfLiving
+Trinidad and Tobago,SpeedTestMobile
+Tunisia,CostOfLiving
+Tunisia,LPI2023
+Turkey,GPI
+Turkey,LPI2023
+Turkey,SpeedTestBroadband
+Turkey,SpeedTestMobile
+Turkiye,CostOfLiving
+Turkiye,LPI2023
+Turkiye,SpeedTestBroadband
+Turkiye,SpeedTestMobile
+Turkmenistan,CostOfLiving
+Turkmenistan,LPI2023
+Turkmenistan,SpeedTestBroadband
+Turkmenistan,SpeedTestMobile
+Türkiye,CostOfLiving
+Türkiye,GPI
+Türkiye,LPI2023
+UAE,GPI
+UAE,LPI2023
+UAE,SpeedTestBroadband
+UAE,SpeedTestMobile
+Uganda,CostOfLiving
+Uganda,LPI2023
+Uganda,SpeedTestMobile
+Ukraine,CostOfLiving
+United Arab Emirates,CostOfLiving
+United Kingdom,CostOfLiving
+United States,CostOfLiving
+United States,GPI
+United States of America,CostOfLiving
+United States of America,LPI2023
+United States of America,SpeedTestBroadband
+United States of America,SpeedTestMobile
+Uruguay,SpeedTestMobile
+Uzbekistan,CostOfLiving
+Venezuela,CostOfLiving
+Venezuela,LPI2023
+"Venezuela, RB",CostOfLiving
+"Venezuela, RB",GPI
+"Venezuela, RB",SpeedTestBroadband
+"Venezuela, RB",SpeedTestMobile
+Yemen,CostOfLiving
+Yemen,LPI2023
+Yemen,SpeedTestMobile
+"Yemen, Rep.",CostOfLiving
+"Yemen, Rep.",GPI
+"Yemen, Rep.",SpeedTestBroadband
+"Yemen, Rep.",SpeedTestMobile
+Zambia,CostOfLiving
+Zambia,LPI2023
+Zambia,SpeedTestMobile
+Zimbabwe,CostOfLiving
+Zimbabwe,SpeedTestMobile
