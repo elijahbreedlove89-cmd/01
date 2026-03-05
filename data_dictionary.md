@@ -18,3 +18,5 @@
 
 | \*\*Validation Benchmark\*\* | OECD Better Life Index | Feb 19, 2026 | External validation for rankings | CSV | Currently facing naming formatting mismatches requiring resolution. |
 
+| \*\*California Baseline (Control)\*\* | Numbeo / GPI / WB LPI (Manual Extract) | Mar 5, 2026 | Rent, US Safety (2.448), US LPI (3.8) | Hardcoded | Acts as the control anchor to calculate the "Net-Income Stretch" (Arbitrage Gap). |
+
