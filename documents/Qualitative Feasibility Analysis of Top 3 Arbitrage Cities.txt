@@ -1,0 +1,34 @@
+Qualitative Feasibility Deep-Dive: Top 3 GARI Cities
+Objective: To validate the mathematical outputs of the MCDA scoring engine against real-world qualitative constraints for a US-based remote worker (specifically California/PST).
+
+1. Penang, Malaysia
+
+Visa Vehicle: DE Rantau Nomad Pass
+
+Income Floor: $24,000 USD/year minimum provable remote income.
+
+Tax Status: Tax-exempt on foreign-sourced income if brought into the country under the specific nomad scheme.
+
+Timezone Feasibility: Severe. Malaysia Time (MYT) is 16 hours ahead of Pacific Standard Time (PST). A standard 9:00 AM – 5:00 PM PST workday requires working 1:00 AM – 9:00 AM in Penang. This is highly disruptive to circadian rhythms and requires a highly asynchronous work environment.
+
+2. Plovdiv, Bulgaria
+
+Visa Vehicle: Bulgarian Freelance/Remote Work Visa (Type D)
+
+Income Floor: Must prove income equivalent to the Bulgarian minimum wage (often ~€500/month, making it incredibly accessible for US salaries).
+
+Tax Status: Flat 10% income tax (one of the lowest in the EU), with an active US-Bulgaria Tax Treaty preventing double taxation.
+
+Timezone Feasibility: Moderate. Eastern European Time (EET) is 10 hours ahead of PST. A 9:00 AM – 5:00 PM PST schedule translates to 7:00 PM – 3:00 AM in Plovdiv. This is a "night owl" shift, which may be sustainable for some but limits evening socialization.
+
+3. Buenos Aires, Argentina
+
+Visa Vehicle: Digital Nomad Visa (Residencia Transitoria)
+
+Income Floor: Roughly $30,000 USD/year (Requires proof of consistent monthly remote income).
+
+Tax Status: No local tax on foreign-sourced income for the duration of the 6-month (renewable) nomad visa.
+
+Timezone Feasibility: Excellent. Argentina Standard Time (ART) is only 4 hours ahead of PST. A 9:00 AM – 5:00 PM PST schedule translates to a highly comfortable 1:00 PM – 9:00 PM local workday. This allows for morning exploration and perfect synchronization with US employers without sleep disruption.
+
+Conclusion: While Penang scores the highest mathematically (+0.429), Buenos Aires (+0.331) offers the most viable qualitative "Arbitrage Profile" for a California-based worker due to the manageable 4-hour timezone delta, preventing the massive physical toll of the graveyard shifts required in Malaysia or Bulgaria.
